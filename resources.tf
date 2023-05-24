@@ -1,6 +1,6 @@
 module "resource_group_1" {
 
-  source      = "git::https://github.com/velbi-corp/project-terraform/releases/tag/V1.0.0"
+  source      = "git::https://github.com/velbi-corp/project-terraform?ref=v1.0"
   prefix_name = "dev-module"
   environment = "DEV"
   tags = {
