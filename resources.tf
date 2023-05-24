@@ -1,5 +1,5 @@
 module "resource_group_1" {
-  source      = "https://$Velbi:$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@github.com/velbi-corp/project-terraform?ref=v1.0.0"
+  source      = "git::https://github.com/velbi-corp/project-terraform?ref=v1.0.0"
   prefix_name = "dev-module"
   environment = "DEV"
   tags = {
