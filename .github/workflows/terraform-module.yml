@@ -9,8 +9,8 @@ env:
   SA_BACKEND: "sademoterraformtfstate"
   CNT_BACKEND: "tfstate"
   KEY_BACKEND: "terraform.tfstate"
-  ARM_SUBSCRIPTION_ID: "b91fb75d-a7ff-4643-a859-6823972bd50f"
-  ARM_TENANT_ID: "69a0aceb-e49d-43b4-9ddd-a1a3e4198400"
+  ARM_SUBSCRIPTION_ID: "dbf62859-39f7-4fdc-bb53-e526725de55e"
+  ARM_TENANT_ID: "419583d9-10bf-4640-938d-efe83663b051"
   ARM_CLIENT_ID: "${{ secrets.CLIENT_ID }}"
   ARM_CLIENT_SECRET: "${{ secrets.CLIENT_SECRET }}"
 
